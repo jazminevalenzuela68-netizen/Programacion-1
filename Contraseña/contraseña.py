@@ -1,6 +1,7 @@
 def ContrasenaSegura(contrasena: str) -> bool:
     """Devuelve True si la contraseña cumple todos los criterios de seguridad."""
     if len(contrasena) < 5:
+        contrasenaSegura=False
         return False
     tiene_mayuscula = False
     tiene_minuscula = False
@@ -21,9 +22,4 @@ def ContrasenaSegura(contrasena: str) -> bool:
         and tiene_digito
         and tiene_especial
     )
-# Ejemplos de prueba
-print(contrasenaSegura("Hola1!"))  # True
-print(contrasenaSegura("hola1!"))  # False: no tiene mayúscula
-print(contrasenaSegura("HOLA1!"))  # False: no tiene minúscula
-print(contrasenaSegura("Hola!!"))  # False: no tiene dígito
-print(contrasenaSegura("Ho1!"))    # False: tiene menos de 5 caracteres
+#Programa q revvisar si la contraseña ingresa es corrercta, teniendo numeros, simbolos y mayusculas

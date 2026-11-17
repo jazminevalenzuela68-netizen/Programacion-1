@@ -10,3 +10,5 @@ Juego para dos participantes con un objetivo de acumular 21 puntos en las cartas
 Verifica que una contraseña sea segura, revisando que contenga simbolos,nùmeros y mayusculas
 ### ListaSinRepetir
 Verifica que las personas o el contenido de la lista no se repita
+### CadenaInvertida
+toma lo la cadena de caracteres que se ingresa y te la devuelve inversa

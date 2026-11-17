@@ -3,7 +3,7 @@
 Implementa la lógica y una interfaz gráfica mejorada (Tkinter con Canvas)
 con fondo verde oscuro opaco, mensajes sin emojis y juego automático inicial.
 """
-
+#Juego donde para janar tienes que lograr obtener 21 puntos o acercarte mas
 import random
 import tkinter as tk
 
